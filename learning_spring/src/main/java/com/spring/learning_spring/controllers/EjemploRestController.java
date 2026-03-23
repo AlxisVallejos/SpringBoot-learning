@@ -9,9 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.spring.learning_spring.models.Empleados;
 
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 //Se convierte el controlador en api rest
 @RestController

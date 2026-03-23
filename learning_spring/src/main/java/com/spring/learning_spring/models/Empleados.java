@@ -1,17 +1,22 @@
 package com.spring.learning_spring.models;
 
 public class Empleados {
-    private String nombre, apellido, direccion, puesto;
-    private int edad, telefono, id;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+    private String puesto;
+    private int edad;
+    private int telefono;
+    private int id;
 
     public Empleados(String nombre, String apellido, String direccion, String puesto, int edad, int telefono, int id) {
+        this.edad = edad;
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
-        this.puesto = puesto;
-        this.edad = edad;
         this.telefono = telefono;
         this.id = id;
+        this.puesto = puesto;
     }
     
     public String getNombre() {

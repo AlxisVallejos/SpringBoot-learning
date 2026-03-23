@@ -16,7 +16,15 @@ public class EjemploController {
     //Patron de inyeccion de dependencias - spring inyecta una instancia para pasar datos a la vista(Model)
     //Usar el model de springframework
     public String info(Model model){
-        Empleados empleado1 = new Empleados("Alexis", "Vallejos", "La florida", "Desarrollador", 25, 123456789, 001);
+        Empleados empleado1 = new Empleados(
+            "Alexis", 
+            "Vallejos", 
+            "La florida", 
+            "Desarrollador", 
+            25, 
+            123456789, 
+            001
+        );
 
         model.addAttribute("Empleado", empleado1);
         
